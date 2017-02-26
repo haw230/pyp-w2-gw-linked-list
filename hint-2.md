@@ -76,7 +76,7 @@ Once your `append` method is ready, you can rely on it for your initialization m
 class LinkedList(object):
     def __init__(self, elements=None):
         self.start = None
-        self.start = None
+        self.end = None
         if elements:
             for elem in elements:
                 self.append(elem)
